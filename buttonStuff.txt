@@ -1,0 +1,76 @@
+ if (m_Drivestick.GetShareButtonPressed())
+  {
+    printf("shareButton\n");
+  }
+  if (m_Drivestick.GetSquareButtonPressed())
+  {
+    printf("squareButton\n");
+  }
+  if (m_Drivestick.GetTouchpadPressed())
+  {
+    printf("touchPad\n");
+  }
+  if (m_Drivestick.GetCircleButtonPressed())
+  {
+    printf("circleButton\n");
+  }
+  if (m_Drivestick.GetCrossButtonPressed())
+  {
+    printf("crossButton\n");
+  }
+  if (m_Drivestick.GetL1ButtonPressed())
+  {
+    printf("L1Button\n");
+  }
+  if (m_Drivestick.GetL2ButtonPressed())
+  {
+    printf("L2Button\n");
+  }
+  if (m_Drivestick.GetL3ButtonPressed())
+  {
+    printf("L3Button\n");
+  }
+  if (m_Drivestick.GetLeftX() > 0.01 || m_Drivestick.GetLeftX() < -0.01)
+  {
+    printf("LeftX %f\n", m_Drivestick.GetLeftX());
+  }
+  if (m_Drivestick.GetLeftY() > 0.01 || m_Drivestick.GetLeftY() < -0.01)
+  {
+    printf("LeftY\n");
+  }
+  if (m_Drivestick.GetOptionsButtonPressed())
+  {
+    printf("optionsButton\n");
+  }
+  if (m_Drivestick.GetPSButtonPressed())
+  {
+    printf("PSButton\n");
+  }
+  if (m_Drivestick.GetR1ButtonPressed())
+  {
+    printf("R1Button\n");
+  }
+  if (m_Drivestick.GetR2Axis())
+  {
+    printf("R2Axis %f\n", m_Drivestick.GetR2Axis());
+  }
+  if (m_Drivestick.GetR2ButtonPressed())
+  {
+    printf("R2Button\n");
+  }
+  if (m_Drivestick.GetR3ButtonPressed())
+  {
+    printf("R3Button\n");
+  }
+  if (m_Drivestick.GetRightX() > 0.01 || m_Drivestick.GetRightX() < -0.01 )
+  {
+    printf("RightX\n");
+  }
+  if (m_Drivestick.GetRightY() > 0.01 || m_Drivestick.GetRightY() < -0.01 )
+  {
+    printf("RightY\n");
+  }
+  if (m_Drivestick.GetTriangleButtonPressed())
+  {
+    printf("triangleButton\n");
+  }
